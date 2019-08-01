@@ -1,5 +1,4 @@
-ARG PYTHON_VERSION=3.7
-FROM python:${PYTHON_VERSION}-slim-stretch
+FROM python:3.7-slim-stretch
 
 RUN apt-get update && apt-get install -y \
     gcc \
