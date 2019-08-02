@@ -2,7 +2,7 @@
 
 The purpose of this repository is to have a public docker image for Openstack CLI (https://github.com/openstack/python-openstackclient).
 
-The easyest way to use it, according to OpenStack CLI documentation [Openstack Stein configuration man](https://docs.openstack.org/python-openstackclient/stein/configuration/index.html) is allocating the configuration in a clouds.yaml file in one of the valid locations:
+The easyest way to use it, according to OpenStack CLI documentation (https://docs.openstack.org/python-openstackclient/stein/configuration/index.html) is allocating the configuration in a clouds.yaml file in one of the valid locations:
 
 * current directory
 * ~/.config/openstack
